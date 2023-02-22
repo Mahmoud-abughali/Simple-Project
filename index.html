@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="./images/computer-science-education.png">
+  <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+  <header class="navv">
+    <div class="container">
+      <div class="logo"><img src="./images/logo.png" alt=""></div>
+      
+      <nav>
+        <i class="fa fa-thin fa-bars"></i>
+        <ul>
+          <li><a href="#"> Home</a></li>
+          <li><a href="#Projects"> Projects</a></li>
+          <li><a href="#Info"> Info</a></li>
+          <li><a href="#Contact"> Contact Me</a></li>
+        </ul>
+        
+      </nav>
+    </div>
+  </header>
+  <!-- Start Name Tag Secion -->
+  <section class="headder">
+    <div class="someinfo">
+      <div class="sortye"><img src="./images/me.jpg" alt="Photo"></div>
+      <div class="esme">
+        <p>Mahmoud Abu Ghali <br> 21 Y.O <br> Computer Scince Student </p>
+      </div>
+    </div>
+  </section>
+  <!-- End Name Tag Section -->
+  <!-- Start Projects Section -->
+  <section class="Projects" id="Projects">
+    <h1>Projects</h1>
+    <div class="continer">
+
+      <div class="mashare3">
+        <div class="sora"><a href="https://mahmoud-abughali.github.io/2nd-Css-project/" target="_blank"><img
+              src="./images/proj1.png" alt="prject"></a></div>
+        <p>Company web site</p>
+      </div>
+      <div class="mashare3">
+        <div class="sora"><a href="https://mahmoud-abughali.github.io/3rd-project/" target="_blank"><img
+              src="./images/project2.png" alt="prject"></a></div>
+        <p>University web site</p>
+      </div>
+      <div class="mashare3">
+        <div class="sora"><a href="https://mahmoud-abughali.github.io/bubbles/" target="_blank"><img
+              src="./images/project3.png" alt="prject"></a></div>
+        <p>Bubbles Landing Page</p>
+      </div>
+      <div class="mashare3">
+        <div class="sora"><a href="https://mahmoud-abughali.github.io/Furniture-landing-page/" target="_blank"><img
+              src="./images/project4.png" alt="prject"></a></div>
+        <p>Furniture Store Landing Page</p>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+  <!-- Start Info Section -->
+  <section class="Info" id="Info">
+    <h1>Information About Me</h1>
+    <div class="information">
+      <div class="personal-info">
+        <div class="progs">
+          <h1>Eng . Mahmoud Abu Ghali</h1>
+          <p>
+            Computer Scince Student at AUG. <br>
+            Front-end develolper with more than 8 months of experience.<br>
+            Advanced at english, 12levels of english at palestine center in Rafah.<br>
+            I know my way with Photoshpe.<br>
+            i have several certificates in front-end development.
+          </p>
+        </div>
+      </div>
+      <div class="degrees-cerfications">
+        <div class="progs">
+          <h1>Front-end Developer</h1>
+          <ul>
+            <li>
+              <p>HTML5</p>
+            </li>
+            <li>
+              <progress value="100" max="100"></progress>
+            </li>
+            <li>
+              <p>CSS</p>
+            </li>
+            <li>
+              <progress value="100" max="100"></progress>
+            </li>
+            <li>
+              <p> JavaScript</p>
+            </li>
+            <li>
+              <progress value="90" max="100"></progress>
+            </li>
+            <li>
+              <p>JQuare</p>
+            </li>
+            <li>
+              <progress value="70" max="100"></progress>
+            </li>
+            <li>
+              <p>Bootstrap5</p>
+            </li>
+            <li>
+              <progress value="100" max="100"></progress>
+            </li>
+            <li>
+              <p>React.js</p>
+            </li>
+            <li>
+              <progress value="60" max="100"></progress>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Info Section -->
+  <!-- Start Contact me Section -->
+  <Section class="Contact" id="Contact">
+    <div class="continer">
+      <form>
+        <input class="inputss" required type="text" placeholder="Your Name">
+        <input class="inputss" required type="text" placeholder="Your Email">
+        <textarea class="inputss" cols="20" rows="10" placeholder="Your Message"></textarea>
+        <button class="btn" type="submit">Send</button>
+      </form>
+      <div class="contacts">
+        <div class="insta"><img src="./images/Mee.jpg" alt="Photo">
+          <ul>
+            <li>
+              <a href="https://www.instagram.com/mahmoud_ghali7/" target="_blank">Instagram</a>
+            </li>
+            <li>
+              <a href="#" target="_blank">Whats App:- +972 59-226-39**</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </Section>
+  <!-- End Contact me Section -->
+  <!-- Start footer -->
+  <footer>
+    <div>&copy;2023</div>
+    <div>Eng.Mahmoud Abu Ghali</div>
+  </footer>
+  <!-- End footer -->
+  <Script>
+    var navlinks = document.getElementById("navlinks");
+
+    function showMenu() {
+      navlinks.style.right = "0";
+    }
+
+    function hideMenu() {
+      navlinks.style.right = "-200px ";
+    }
+  </Script>
+</body>
+
+</html>
